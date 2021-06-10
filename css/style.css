@@ -51,7 +51,6 @@ body {
   line-height: 25px;
   background-color: #fff;
   color: #fff;
-  margin-top: 186px;
 }
 
 img {
@@ -80,11 +79,6 @@ img {
 }
 
 .side__header {
-  position: fixed;
-  z-index: 99;
-  top: 0;
-  left: 0;
-  width: 100%;
   background-color: var(--header-color);
   padding: 73px 0;
 }
