@@ -23,47 +23,47 @@
   </header>
 
   <main class="side__main">
+    <h1 class="visually-hidden">Contact</h1>
     <section class="contacts__section">
       <div class="container contacts__container">
         <div class="contacts__left-box">
           <h2 class="contacts__heading">Contact</h2>
           <h3 class="contacts__heading-h3">Ask us about</h3>
           <ul class="contacts__list">
-            <li class="contacts__item">
+            <li class="contacts__item contacts__bgimg man">
               <p class="contacts__text">The quality of our talent network</p>
             </li>
-            <li class="contacts__item">
+            <li class="contacts__item contacts__bgimg settings">
               <p class="contacts__text">Usage & implementation of our software</p>
             </li>
-            <li class="contacts__item">
+            <li class="contacts__item contacts__bgimg diagnost">
               <p class="contacts__text">How we help drive innovation</p>
             </li>
           </ul>
         </div>
         <form class="contacts__form" action="https://echo.htmlacademy.ru" method="POST">
           <div class="input__group">
-            <input class="field name-field" type="text" name="name" id="name-input" minlength="2" placeholder="Name" required>
+            <input class="field name-field" type="text" name="name"  minlength="2" placeholder="Name" aria-label="input name" required>
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="email" name="name" id="name-input" placeholder="Email Address" required>
+            <input class="field" type="email" name="name"  placeholder="Email Address" aria-label="input email address" required>
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="text" name="name" id="name-input" minlength="2" placeholder="Company Name" required>
+            <input class="field" type="text" name="name" minlength="2" placeholder="Company Name" aria-label="input company name" required>
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="text" name="name" id="name-input" minlength="2" placeholder="Title" required>
+            <input class="field" type="text" name="name" minlength="2" placeholder="Title" aria-label="input title" required>
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="text" name="name" id="name-input" placeholder="Massage" required>
-            <p class="incorrect">This field is required</p>
+            <input class="field" type="text" name="name" placeholder="Massage" aria-label="input massage" required>
           </div>
           
           <button class="contacta__button" type="submit">submit</button>
@@ -81,12 +81,12 @@
           <li class="footer__nav-item"><a class="footer__nav-link" href="about.html" >about</a></li>
         </ul>
       </div>
-      <div class="adress">
+      <address class="adress">
         <p class="adress__text">987  Hillcrest Lane</p>
         <p class="adress__text">Irvine, CA</p>
         <p class="adress__text">California 92714</p>
         <p class="adress__text">Call Us : <a class="adress-link" href="tel:9498337432">949-833-7432</a></p>
-      </div>
+      </address>
       <div class="icon__footer">
         <ul class="icon__list">
           <li class="icon__item"><a class="icon__link" href="index.html" target="_blank"><svg class="icon__img" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg></a></li>
