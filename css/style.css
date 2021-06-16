@@ -960,6 +960,12 @@ input:not(:placeholder-shown):not(:focus):valid{
   border-color: var(--green-color);
 }
 
+.massage{
+  min-width: 540px;
+  max-width: 540px;
+  overflow: hidden;
+}
+
 .incorrect {
   position: absolute;
   z-index: 1;
@@ -981,6 +987,13 @@ input:not(:placeholder-shown):not(:focus):valid{
   border: 2px solid #fff;
   border-radius: 24px;
   padding: 10px 32px;
+  transition: background-color 0.4s ease,
+    border 0.4s ease;
+}
+
+.contacta__button:hover{
+  background-color: #79c8c7;
+  border: 2px solid #79c8c7;
 }
 
 

@@ -43,27 +43,28 @@
         </div>
         <form class="contacts__form" action="https://echo.htmlacademy.ru" method="POST">
           <div class="input__group">
-            <input class="field name-field" type="text" name="name"  minlength="2" placeholder="Name" aria-label="input name" required>
+            <input class="field name-field" type="text" name="name"  minlength="2" placeholder="Name" aria-label="input name" required autocomplete="off">
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="email" name="name"  placeholder="Email Address" aria-label="input email address" required>
+            <input class="field" type="email" name="email"  placeholder="Email Address" aria-label="input email address" required autocomplete="off">
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="text" name="name" minlength="2" placeholder="Company Name" aria-label="input company name" required>
+            <input class="field" type="text" name="company name" minlength="2" placeholder="Company Name" aria-label="input company name" required autocomplete="off">
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="text" name="name" minlength="2" placeholder="Title" aria-label="input title" required>
+            <input class="field" type="text" name="title" minlength="2" placeholder="Title" aria-label="input title" required autocomplete="off">
             <p class="incorrect">This field is required</p>
           </div>
 
           <div class="input__group">
-            <input class="field" type="text" name="name" placeholder="Massage" aria-label="input massage" required>
+            <textarea class="field massage" name="massage" minlength="3" cols="30" rows="0" placeholder="Massage"></textarea>
+            <p class="incorrect">This field is required</p>
           </div>
           
           <button class="contacta__button" type="submit">submit</button>
